@@ -97,7 +97,7 @@ func (s *Server) tailOne(file, tag string, whence int) {
 	defer s.registry.Remove(file)
 
 	t, err := follower.New(file, follower.Config{
-		Reopen: false,
+		Reopen: s.config.Reopen,
 		Offset: 0,
 		Whence: whence,
 		Poll:   s.config.Poll,
