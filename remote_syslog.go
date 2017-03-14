@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/howbazaar/loggo"
-	"github.com/papertrail/go-tail/follower"
+	"github.com/gravitational/go-tail/follower"
 	"github.com/papertrail/remote_syslog2/syslog"
 	"github.com/papertrail/remote_syslog2/utils"
 )
@@ -97,9 +97,10 @@ func (s *Server) tailOne(file, tag string, whence int) {
 	defer s.registry.Remove(file)
 
 	t, err := follower.New(file, follower.Config{
-		Reopen: true,
+		Reopen: s.config.Reopen,
 		Offset: 0,
 		Whence: whence,
+		Poll:   s.config.Poll,
 	})
 
 	if err != nil {

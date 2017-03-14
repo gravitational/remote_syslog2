@@ -53,8 +53,11 @@ type Config struct {
 	Hostname             string
 	Severity             syslog.Priority
 	Facility             syslog.Priority
-	Poll                 bool
-	Destination          struct {
+	// Reopen controls if follower continuously attempts to re-open files that were
+	// deleted/moved
+	Reopen      bool
+	Poll        bool
+	Destination struct {
 		Host     string
 		Port     int
 		Protocol string
@@ -119,6 +122,9 @@ func initConfigAndFlags() {
 
 	flags.Bool("poll", false, "Detect changes by polling instead of inotify")
 	config.BindPFlag("poll", flags.Lookup("poll"))
+
+	flags.Bool("reopen", true, "Re-open moved or deleted files")
+	config.BindPFlag("reopen", flags.Lookup("reopen"))
 
 	flags.Int("new-file-check-interval", 10, "How often to check for new files (seconds)")
 	config.BindPFlag("new_file_check_interval", flags.Lookup("new-file-check-interval"))

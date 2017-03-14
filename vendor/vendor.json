@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "NRonvQTe073YVead6//CQ5oVgK4=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "1deb2db2a6fff8a35532079061b903c3a25eed52",
+			"revisionTime": "2017-03-08T20:36:35Z"
+		},
+		{
 			"checksumSHA1": "eZTp4vwxqwMmVW6cPrW0SjXizl8=",
 			"path": "github.com/VividCortex/godaemon",
 			"revision": "2fdf3f9fa715a998e834f09e07a8070d9046bcfd"
@@ -15,10 +21,32 @@
 			"revisionTime": "2016-06-15T09:26:46Z"
 		},
 		{
+			"checksumSHA1": "TrNhXK9Rx4yYXP8TPETZTvZGeGw=",
+			"path": "github.com/docker/docker/pkg/filenotify",
+			"revision": "400d154737cd026f29269bb381390b3d454ba6bb",
+			"revisionTime": "2017-03-10T14:34:53Z"
+		},
+		{
 			"checksumSHA1": "xgjI2W3RGiQwNlxsOW2V9fJ9kaM=",
 			"path": "github.com/fsnotify/fsnotify",
 			"revision": "f12c6236fe7b5cf6bcf30e5935d08cb079d78334",
 			"revisionTime": "2016-08-16T05:15:41Z"
+		},
+		{
+			"checksumSHA1": "EQWvkr18xOSOAC4tvtE8vt0tp8Q=",
+			"path": "github.com/gravitational/go-tail",
+			"revision": "7e97fb386f7a6d097a920f300a872ce08e23d359",
+			"revisionTime": "2017-03-10T14:54:21Z",
+			"version": "dmitri/polling",
+			"versionExact": "dmitri/polling"
+		},
+		{
+			"checksumSHA1": "DKcRprldwhf9emspmRZFTbHqAOU=",
+			"path": "github.com/gravitational/go-tail/follower",
+			"revision": "7e97fb386f7a6d097a920f300a872ce08e23d359",
+			"revisionTime": "2017-03-10T14:54:21Z",
+			"version": "dmitri/polling",
+			"versionExact": "dmitri/polling"
 		},
 		{
 			"checksumSHA1": "fa9G5tEr4oJJc3vtgn/B0NWZXfA=",
@@ -240,5 +268,5 @@
 			"revisionTime": "2016-07-15T03:37:55Z"
 		}
 	],
-	"rootPath": "github.com/papertrail/remote_syslog2"
+	"rootPath": "github.com/gravitational/remote_syslog2"
 }
