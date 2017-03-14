@@ -35,18 +35,14 @@
 		{
 			"checksumSHA1": "EQWvkr18xOSOAC4tvtE8vt0tp8Q=",
 			"path": "github.com/gravitational/go-tail",
-			"revision": "7e97fb386f7a6d097a920f300a872ce08e23d359",
-			"revisionTime": "2017-03-10T14:54:21Z",
-			"version": "dmitri/polling",
-			"versionExact": "dmitri/polling"
+			"revision": "d06b1fa92d417589e3ff57503529c1875f977b71",
+			"revisionTime": "2017-03-10T23:38:21Z"
 		},
 		{
-			"checksumSHA1": "DKcRprldwhf9emspmRZFTbHqAOU=",
+			"checksumSHA1": "G6DadSyxnwvcFOhKaQ3MDM1vhAc=",
 			"path": "github.com/gravitational/go-tail/follower",
-			"revision": "7e97fb386f7a6d097a920f300a872ce08e23d359",
-			"revisionTime": "2017-03-10T14:54:21Z",
-			"version": "dmitri/polling",
-			"versionExact": "dmitri/polling"
+			"revision": "d06b1fa92d417589e3ff57503529c1875f977b71",
+			"revisionTime": "2017-03-10T23:38:21Z"
 		},
 		{
 			"checksumSHA1": "fa9G5tEr4oJJc3vtgn/B0NWZXfA=",
