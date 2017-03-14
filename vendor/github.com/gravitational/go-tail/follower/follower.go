@@ -54,7 +54,7 @@ type Config struct {
 	// Reopen continuously attempts to open a file if it's moved
 	// or deleted
 	Reopen bool
-	// Poll controls whether polling is is used instead of inotify
+	// Poll controls whether polling is used instead of inotify
 	Poll bool
 }
 
