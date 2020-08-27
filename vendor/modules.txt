@@ -1,5 +1,4 @@
 # github.com/Sirupsen/logrus v0.11.5-0.20170308203635-1deb2db2a6ff
-## explicit
 github.com/Sirupsen/logrus
 # github.com/VividCortex/godaemon v0.0.0-20131002161106-2fdf3f9fa715
 ## explicit
@@ -11,9 +10,6 @@ github.com/davecgh/go-spew/spew
 github.com/docker/docker/pkg/filenotify
 # github.com/fsnotify/fsnotify v1.4.3-0.20161026203122-fd9ec7deca8b
 github.com/fsnotify/fsnotify
-# github.com/gravitational/go-tail v0.0.0-20170310233821-d06b1fa92d41
-## explicit
-github.com/gravitational/go-tail/follower
 # github.com/hashicorp/hcl v0.0.0-20160902165219-99df0eb941dd
 ## explicit
 github.com/hashicorp/hcl
@@ -40,8 +36,9 @@ github.com/mitchellh/mapstructure
 # github.com/nightlyone/lockfile v0.0.0-20160306143149-b30dcbfa86e3
 ## explicit
 github.com/nightlyone/lockfile
-# github.com/papertrail/go-tail v0.0.0-20180509224916-973c153b0431 => github.com/gravitational/go-tail v0.0.0-20200827185227-7c31f2496790
+# github.com/papertrail/go-tail v0.0.0-20180509224916-973c153b0431 => github.com/gravitational/go-tail v0.0.0-20200827192353-b7402586e2ec
 ## explicit
+github.com/papertrail/go-tail/follower
 # github.com/pelletier/go-buffruneio v0.1.0
 ## explicit
 github.com/pelletier/go-buffruneio
@@ -93,4 +90,6 @@ golang.org/x/text/unicode/norm
 gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
 gopkg.in/yaml.v3
-# github.com/papertrail/go-tail => github.com/gravitational/go-tail v0.0.0-20200827185227-7c31f2496790
+# launchpad.net/gocheck v0.0.0-20140225173054-000000000087
+## explicit
+# github.com/papertrail/go-tail => github.com/gravitational/go-tail v0.0.0-20200827192353-b7402586e2ec
